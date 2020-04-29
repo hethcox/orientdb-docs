@@ -19,11 +19,11 @@ This is not the case in v 3.0, where the spatial plugin is included in the main 
 OrientDB supports the following Geometry objects :
 
 * Point (**OPoint**)
-* Line (**OLine**)
+* Line (**OLineString**)
 * Polygon (**OPolygon)**
 * MultiPoint (**OMultiPoint**)
-* MultiLine (**OMultiline**)
-* MultiPolygon (**OMultiPlygon**)
+* MultiLine (**OMultiLineString**)
+* MultiPolygon (**OMultiPolygon**)
 * Geometry Collections 
 
 OrientDB stores those objects like embedded documents with special classes.
